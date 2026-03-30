@@ -10,8 +10,7 @@ const Projects = () => {
   }, []);
 
   const fadeUp = (delay = "") =>
-    `transition-all duration-700 ${delay} ${
-      visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+    `transition-all duration-700 ${delay} ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
     }`;
 
   return (
@@ -34,9 +33,8 @@ const Projects = () => {
 
       {/* Left accent line */}
       <div
-        className={`absolute left-0 top-[20%] bottom-[20%] w-[3px] transition-opacity duration-1000 delay-300 ${
-          visible ? "opacity-100" : "opacity-0"
-        }`}
+        className={`absolute left-0 top-[20%] bottom-[20%] w-[3px] transition-opacity duration-1000 delay-300 ${visible ? "opacity-100" : "opacity-0"
+          }`}
         style={{
           background: "linear-gradient(to bottom, transparent, #5b52a3, transparent)",
         }}
@@ -98,13 +96,18 @@ const Projects = () => {
                   style={{ color: "#1a1730" }}
                 >
                   {project.title}
+                  <span class="ml-2">             {project.url && (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Visit Project
+                    </a>
+                  )}</span>
                 </h2>
-                <p
-                  className="text-sm font-light leading-relaxed"
-                  style={{ color: "#3a3555" }}
-                >
-                  {project.description}
-                </p>
+
                 <a
                   href={project.source}
                   target="_blank"
@@ -125,9 +128,8 @@ const Projects = () => {
 
       {/* Bottom-right meta */}
       <div
-        className={`absolute bottom-8 right-10 hidden md:flex items-center gap-5 transition-opacity duration-700 delay-[1000ms] ${
-          visible ? "opacity-100" : "opacity-0"
-        }`}
+        className={`absolute bottom-8 right-10 hidden md:flex items-center gap-5 transition-opacity duration-700 delay-[1000ms] ${visible ? "opacity-100" : "opacity-0"
+          }`}
       >
 
       </div>
