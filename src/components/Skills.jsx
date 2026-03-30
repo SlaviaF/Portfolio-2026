@@ -10,8 +10,8 @@ import reduxImg from "../assets/skills/redux.png";
 import tsImg from "../assets/skills/typescript.png";
 import angularImg from "../assets/skills/node.png";
 import sqlImg from "../assets/skills/mySQL.png";
-import graphqlImg from "../assets/skills/GraphQL.png";
-import csharpImg from "../assets/skills/Csharp.png";
+import graphqlImg from "../assets/skills/graphql.png";
+import csharpImg from "../assets/skills/csharp.png";
 import rxjsImg from "../assets/skills/RxJS.png";
 
 const skills = [

@@ -93,19 +93,7 @@ const Contact = () => {
             onFocus={(e) => (e.currentTarget.style.borderColor = "#5b52a3")}
             onBlur={(e) => (e.currentTarget.style.borderColor = "rgba(91, 82, 163, 0.15)")}
           />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            className="w-full px-4 py-3 rounded-xl text-sm font-light transition-all duration-300 outline-none"
-            style={{
-              backgroundColor: "rgba(255,255,255,0.7)",
-              border: "1px solid rgba(91, 82, 163, 0.15)",
-              color: "#1a1730",
-            }}
-            onFocus={(e) => (e.currentTarget.style.borderColor = "#5b52a3")}
-            onBlur={(e) => (e.currentTarget.style.borderColor = "rgba(91, 82, 163, 0.15)")}
-          />
+        
           <textarea
             name="message"
             rows="7"
