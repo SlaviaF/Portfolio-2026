@@ -71,19 +71,8 @@ const About = () => {
           className={`font-light text-sm leading-relaxed mb-5 ${fadeUp("delay-300")}`}
           style={{ color: "#3a3555" }}
         >
-          I'm Slavia, a full stack developer based in Copenhagen with a strong
-          frontend focus. I build clean, accessible web applications and enjoy
-          owning the full process from database to interface.
-        </p>
-
-        <p
-          className={`font-light text-sm leading-relaxed mb-12 ${fadeUp("delay-[400ms]")}`}
-          style={{ color: "#3a3555" }}
-        >
-          My stack spans React, Redux, TypeScript, Angular, RxJS, Node.js, TailwindCSS, SQL,  C#, with
-          real-world experience integrating systems like Moodle and WordPress in
-          production environments. I care about maintainable code, good
-          collaboration, and shipping things that actually work.
+       I'm Slavia, a full stack developer based in Copenhagen. I build clean, accessible web applications and enjoy owning the full process, from database to interface.
+My stack includes React, Redux, TypeScript, Angular, RxJS, Node.js, TailwindCSS, SQL, and C#. I care about maintainable code, working closely with designers and backend teams, and shipping things that actually work.
         </p>
 
         

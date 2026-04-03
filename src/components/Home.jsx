@@ -85,9 +85,7 @@ const Home = () => {
 
         {/* Divider */}
         <div className={`flex items-center gap-3 my-8 ${fadeUp("delay-[400ms]")}`}>
-          <div className="w-10 h-px" style={{ backgroundColor: "#c4c0df" }} />
-          <div className="w-2 h-2 rounded-full" style={{ backgroundColor: "rgba(91, 82, 163, 0.3)" }} />
-          <div className="w-4 h-px" style={{ backgroundColor: "#c4c0df" }} />
+     <span className="w-8 h-px" style={{ backgroundColor: "#5b52a3" }} />
         </div>
 
         {/* Bio */}
